@@ -17,6 +17,10 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 
+img{
+    border-radius: 50%;
+}
+
 .web{
     text-decoration: underline;
 }
@@ -29,15 +33,11 @@ h3{
 }
 
 .middle-container{
-    height: 200px;
-    width: 200px;
-    background-color: palevioletred;
+
 }
 
 .bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: darkcyan;
+
 }
 
 .top-cloud{
