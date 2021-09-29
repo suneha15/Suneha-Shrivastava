@@ -2,27 +2,41 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    font-size: 150%;
+    line-height: 2em;
 }
 
 h1{
-    margin-top:0;
+    color:  #66BFBF    ;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin:50px auto 0 auto;
     font-family: 'Sacramento', cursive;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF ;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
-img{
-    border-radius: 50%;
+a{
+    color: #11999E;
 }
 
 .web{
     text-decoration: underline;
+}
+
+.images{
+    width: 25%;
+    border-radius: 50%;
 }
 
 .top-container{
@@ -30,14 +44,6 @@ img{
     /* margin: 20px; */
     position: relative;
     padding-top: 100px;
-}
-
-.middle-container{
-
-}
-
-.bottom-container{
-
 }
 
 .top-cloud{
@@ -50,4 +56,46 @@ img{
     position:absolute;
     left: 300px ;
     bottom: 300px;
+}
+
+.skill-row{
+    width: 50%;  
+    /* 50% of the entire page */
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img{
+    width: 25%;
+    /* 25% of div->skill-row which itself is 50% of the entire page */
+
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.painting-img{
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.code-skill-description{
+    clear: left;
+}
+
+.painting-skill-description{
+    clear: right;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
 }
